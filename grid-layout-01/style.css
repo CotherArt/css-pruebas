@@ -1,0 +1,20 @@
+* {
+    background-color: boun;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-gap: 10px;
+}
+
+.elemento {
+    background-color: rgb(242, 242, 167);
+    border-radius: 10px;
+}
+
+.elemento img {
+    width: 100%;
+}

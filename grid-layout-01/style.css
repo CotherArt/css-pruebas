@@ -1,44 +1,44 @@
 * {
-    background-color: boun;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;
+  background-color: boun;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
 }
 
 .container {
-    display: grid;
-    grid-auto-rows: minmax(250px, auto);
-    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
-    grid-gap: 15px;
+  display: grid;
+  grid-auto-rows: minmax(250px, auto);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  grid-gap: 15px;
 }
 
 .elemento {
-    min-width: 250px;
-    background-color: #b36594;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  min-width: 250px;
+  background-color: #b36594;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .elemento img {
-    width: 100%;
-    border-radius: 5px;
+  width: 100%;
+  border-radius: 5px;
 }
 
-.description{
-    background-color: #dba4bb;
-    border-radius: 5px;
+.description {
+  background-color: #dba4bb;
+  border-radius: 5px;
 }
 
-.elemento h2{
-    color: white;
-    background-color: #884e71;
-    border-radius: 5px;
+.elemento h2 {
+  color: white;
+  background-color: #884e71;
+  border-radius: 5px;
 }
 
-.elemento .type{
-    font-weight: bold;
-    text-align: right;
-    background: none;
-    margin-top: 0px;
+.elemento .type {
+  font-weight: bold;
+  text-align: right;
+  background: none;
+  margin-top: 0px;
 }
